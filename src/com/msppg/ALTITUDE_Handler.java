@@ -1,8 +1,0 @@
-// AUTO-GENERATED CODE: DO NOT EDIT!!!
-
-package com.msppg;
-
-public interface ALTITUDE_Handler {
-
-    public void handle_ALTITUDE(int altitude, short vario);
-}
