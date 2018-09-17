@@ -362,15 +362,18 @@ public class Quakes extends PApplet{ // implements View.OnClickListener {
 
     void intersections() {
         //    float d = dist(c1x, c1y, c2x, c2y); // distance between centers
+
         c1x =   map( 106.075f,0,360,0, width);
         // c1y =  map (61.655f,85,-60,0,height);
         c1y =  map (61.655f,90,-90,0,height);
         c2x =   map(157.2217f,0,360,0, width);
+
         // c2y =  map (5.1767f,85,-60,0,height);
         c2y =  map (5.1767f,90,-90,0,height);
         float d = dist(c1x, c1y, c2x, c2y); // distance between centers
         //  float d = dist(map( 106.075f,0,360,0, width),map (61.655f,85,-60,0,height),map(157.2217f,0,360,0, width),map (5.1767f,85,-60,0,height));
         float base, h; // auxiliary distances
+
         //  p, middle point between q1 and q2
         // q1 dn q2 intersection points
         float px, py, q1x, q1y, q2x, q2y;
@@ -411,6 +414,7 @@ public class Quakes extends PApplet{ // implements View.OnClickListener {
         //  }
 
 
+        
     }
 
     //Funcition to convert double[] to float[]
@@ -425,6 +429,26 @@ public class Quakes extends PApplet{ // implements View.OnClickListener {
     }
 // end of function to convert double[] to float[]
 
+  
+    
+    
+/*
+File: vector.cpp
+Cálculo vectorial
+Resultado test: OK
+This file contains proprietary information of Andrés Ruiz Gonzalez
+Andrés Ruiz. San Sebastian - Donostia. Gipuzkoa
+Copyright (c) 1999 - 2007
+*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     double[] VectorSpherical2Cartesian(double B, double L){
 
         double v[] = new double[3];
